@@ -1,8 +1,8 @@
 import { useState } from 'react';
-import Section from './Components/Section';
-import FeedbackOptions from './Components/FeedbackOptions';
-import Statistics from './Components/Statistics';
-import Notification from './Components/Notification';
+import Section from './components/Section';
+import FeedbackOptions from './components/FeedbackOptions';
+import Statistics from './components/Statistics';
+import Notification from './components/Notification';
 import s from './App.module.css';
 
 export default function App() {
