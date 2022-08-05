@@ -31,11 +31,11 @@ export default Statistics;
 
 Statistics.propTypes = {
   allFeedback: PropTypes.shape({
-    good: PropTypes.number,
-    neutral: PropTypes.number,
-    bad: PropTypes.number,
+    good: PropTypes.number.isRequired,
+    neutral: PropTypes.number.isRequired,
+    bad: PropTypes.number.isRequired,
   }),
 
-  onCountTotalFeedback: PropTypes.number,
-  onCountPositiveFeedbackPercentage: PropTypes.number,
+  onCountTotalFeedback: PropTypes.number.isRequired,
+  onCountPositiveFeedbackPercentage: PropTypes.number.isRequired,
 };
