@@ -3,7 +3,7 @@ import FeedbackOptions from './FeedbackOptions';
 import Statistics from './Statistics';
 import Section from './Section/';
 import Notification from './Notification';
-import { Container } from './app.styled';
+import { Container } from './App.styled';
 
 export default function App() {
   const [good, setGood] = useState(0);
